@@ -4,7 +4,7 @@ import leafmap.foliumap as leafmap
 
 def app():
 
-    st.title("Heatmap")
+    st.title("Landuse")
 
     m = leafmap.Map()
     url = "https://www.mrlc.gov/geoserver/mrlc_display/NLCD_2016_Land_Cover_L48/wms?"
